@@ -1,0 +1,1021 @@
+/* Agregamos la fuente que vamos a utilizar en la pagina*/
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Merriweather;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+ height: 100vh;
+ background: #000115;
+ cursor: none;
+}
+.mause{
+    z-index: 199;
+    position: fixed;
+    background: #2696E8;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 0 0 20px #2696E8,
+                0 0  60px #2696E8,
+                0 0 100px #2696E8;
+    animation: colors 5s infinite;  
+    transform: translate(-50%, -50%); 
+            
+}
+@keyframes colors{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+
+     }
+}
+.mause:before{
+   content: '';
+   position: absolute;
+   background: #2696E8;
+   width: 50px;
+   height: 50px;
+   opacity: 0.2;
+   transform: translate(-30%, -30%);
+   border-radius: 50%;
+}
+#inicio{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#inicio .contenido header{
+    background-color: rgba(0, 0, 0, 0.267);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+#inicio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color: bisque;
+}
+#inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: bisque;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5%;
+}
+#inicio .contenido header .contenido-header nav ul a:hover{
+    color: rgb(250, 138, 1);
+}
+#inicio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5%;
+}
+#inicio .contenido header .contenido-header .redes a:hover{
+    color: bisque;
+}
+#inicio .contenido .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#inicio .contenido .presentacion .bienvenidos{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#inicio .contenido .presentacion h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#inicio .contenido .presentacion h2 span{
+    font-size: 72px;
+    color: rgb(252, 191, 118);
+}
+#inicio .contenido .presentacion .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+#inicio .contenido .presentacion a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border:2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5%;
+}
+#inicio .contenido .presentacion a:hover{
+    background-color: rgb(255, 140, 0);
+}
+#icono-nav{
+    color: bisque;
+    display: none;
+}
+/*sobre mi*/
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Merriweather;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+ height: 100vh;
+ background: #000115;
+ cursor: none;
+}
+.mause{
+    z-index: 199;
+    position: fixed;
+    background: #2696E8;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 0 0 20px #2696E8,
+                0 0  60px #2696E8,
+                0 0 100px #2696E8;
+    animation: colors 5s infinite;  
+    transform: translate(-50%, -50%); 
+            
+}
+@keyframes colors{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+
+     }
+}
+.mause:before{
+   content: '';
+   position: absolute;
+   background: #2696E8;
+   width: 50px;
+   height: 50px;
+   opacity: 0.2;
+   transform: translate(-30%, -30%);
+   border-radius: 50%;
+}
+#SOBRE-MI{
+    background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.26)), url("img/2.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#SOBRE-MI .contenido header{
+    background-color: rgba(0, 0, 0, 0.267);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+#SOBRE-MI .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#SOBRE-MI .contenido header .contenido-header h1{
+    text-align: center;
+    color: bisque;
+}
+#SOBRE-MI .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#SOBRE-MI .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: bisque;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5%;
+}
+#SOBRE-MI .contenido header .contenido-header nav ul a:hover{
+    color: rgb(250, 138, 1);
+}
+#SOBRE-MI .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5%;
+}
+#SOBRE-MI .contenido header .contenido-header .redes a:hover{
+    color: bisque;
+}
+.circulo{
+    width: 400px;
+    height: 43px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 100px;
+    
+}
+.circulo .foto{
+    width: 197px;
+    height: 213px;
+    border-radius: 100px;
+    position: absolute;
+    top: 141px;
+    left: 356px;
+}
+
+#sobremi .sobremi{
+    margin: 0px 230px 0px 241px
+}
+#sobremi .sobremi .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #11113500;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0);
+    text-decoration-thickness: 5px;
+}
+#sobremi .sobremi h2{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 65px 0px 0px 632px;
+    letter-spacing: 2px;
+}
+#sobremi .sobremi h2 samp{
+    color: bisque;
+}
+#sobremi .sobremi h3{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 2px 0px 0px 631px;
+}
+#sobremi .sobremi p{
+    font-size: 12px;
+    line-height: 12px;
+    color: bisque;
+    margin: 5px 0px 0px 631px;
+}
+#sobremi a.holadevida{ 
+    position: absolute;
+    top: 377px;
+    left: 961px;
+    font-size: 20px;
+    border: 1px solid #f89a1f; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #f89a1f; /*color botón*/
+    color: #000;
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+}
+#sobremi a.holadevida{
+    background-color: #ffae00;
+    color: #fff;
+}
+#sobremi .sobremi a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    margin-top:30px;
+    transition: .5%;
+    margin: 52px 0px 0px 1026px;
+}
+
+
+#sobremi .sobremi a:hover{
+    background-color: rgb(179, 100, 3);
+    color: rgb(255, 141, 1);
+}
+/* SECCION HABILIDADES*/
+.contenedor-skills{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0;
+    text-align: center;
+    margin: 69px 11px -11px 635px;
+    
+}
+.contenedor-skills .skill{
+    max-width: 600px;
+    margin: 30px auto;
+}
+.contenedor-skills .skill .info{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor-skills .skill .lista{
+    display: inline-block;
+    margin-right:20px;
+    height: 10px;
+    width: 10px;
+    background-color: bisque; 
+}
+.contenedor-skills .skill .barra{
+    background-color: rgb(160, 159, 154);
+    width: 100%;
+    height: 6px;
+    margin: 10px 0;
+}
+/*Este estilo se aplicara luego en javascript para lograr animacion */
+.contenedor-skills .skill .barra .barra-progreso1{
+    background-color: rgb(255, 217, 0);
+    width: 69%;
+    height: 6px;
+    animation: progreso1 2s forwards;
+}
+.contenedor-skills .skill .barra .barra-progreso2{
+    background-color: rgb(255, 230, 0);
+    width: 50%;
+    height: 6px;
+    animation: progreso2 2s forwards;
+}
+/*Creamos la animacion de la barras*/
+@keyframes progreso1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 69%;
+    }
+}
+@keyframes progreso2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+/* SECCION SERVICIOS*/
+
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Merriweather;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+ height: 100vh;
+ background: #000115;
+ cursor: none;
+}
+.mause{
+    z-index: 199;
+    position: fixed;
+    background: #2696E8;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 0 0 20px #2696E8,
+                0 0  60px #2696E8,
+                0 0 100px #2696E8;
+    animation: colors 5s infinite;  
+    transform: translate(-50%, -50%); 
+            
+}
+@keyframes colors{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+
+     }
+}
+.mause:before{
+   content: '';
+   position: absolute;
+   background: #2696E8;
+   width: 50px;
+   height: 50px;
+   opacity: 0.2;
+   transform: translate(-30%, -30%);
+   border-radius: 50%;
+}
+#SERVICIO{
+    background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.288)), url("img/4.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#SERVICIO .contenido header{
+    background-color: rgba(0, 0, 0, 0.267);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    MARGIN: 0% 0% 0% -1%;
+}
+#SERVICIO .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#SERVICIO .contenido header .contenido-header h1{
+    text-align: center;
+    color: bisque;
+}
+#SERVICIO .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#SERVICIO .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: bisque;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5%;
+}
+#SERVICIO .contenido header .contenido-header nav ul a:hover{
+    color: rgb(250, 138, 1);
+}
+#SERVICIO .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5%;
+}
+#SERVICIO .contenido header .contenido-header .redes a:hover{
+    color: bisque;
+}
+#SERVICIO {
+    padding: 100px 15px;
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0);
+}
+#SERVICIOS .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #11113500;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0);
+    text-decoration-thickness: 5px;
+}
+#SERVICIOS .fila{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100PX;
+    margin: 30PX auto;
+}
+#SERVICIOS .fila .SERVICIO{
+   max-width: 350px;
+   background-color: #ffaa007a;
+   position: relative;
+   top: -41px;
+   padding: 30px;
+   margin: 0 5px;
+   border-radius: 5px;
+   transition: .5s;
+}
+@media screen and (max-width: 800px) {
+    #sobremi{
+        padding: 50px 0;
+        display: block;
+    }
+    #sobremi .contenedor-foto {
+        max-width: 100px;
+        margin: auto;
+    }
+    #sobremi .contenedor-foto img{
+        padding: 8px;
+    }
+    #sobremi .sobremi .titulo-seccion{
+        text-align: center;
+    }
+    #sobremi .sobremi h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    #servicios{
+        padding: 50px 15px;
+    }
+    #servicios .fila {
+        display: block;
+    }
+    #servicios .fila .servicio {
+        margin: 10px auto;
+    }
+    .contenedor-skills {
+        padding: 50px 20px;
+    }
+}
+/*secion portafolio*/
+
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Merriweather;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    background: #000115;
+    cursor: none;
+   }
+   .mause{
+       z-index: 199;
+       position: fixed;
+       background: #2696E8;
+       width: 20px;
+       height: 20px;
+       border-radius: 50%;
+       pointer-events: none;
+       box-shadow: 0 0 20px #2696E8,
+                   0 0  60px #2696E8,
+                   0 0 100px #2696E8;
+       animation: colors 5s infinite;  
+       transform: translate(-50%, -50%); 
+               
+   }
+   @keyframes colors{
+       0%{
+           filter: hue-rotate(0deg);
+       }
+       100%{
+           filter: hue-rotate(360deg);
+   
+        }
+   }
+   .mause:before{
+      content: '';
+      position: absolute;
+      background: #2696E8;
+      width: 50px;
+      height: 50px;
+      opacity: 0.2;
+      transform: translate(-30%, -30%);
+      border-radius: 50%;
+   }
+#portafolio{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/5.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#portafolio .contenido header{
+    background-color: rgba(0, 0, 0, 0.267);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+#portafolio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#portafolio .contenido header .contenido-header h1{
+    text-align: center;
+    color: bisque;
+}
+#portafolio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    
+    align-items: center;
+}
+#portafolio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: bisque;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5%;
+}
+#portafolio .contenido header .contenido-header nav ul a:hover{
+    color: rgb(250, 138, 1);
+}
+#portafolio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5%;
+}
+#portafolio .contenido header .contenido-header .redes a:hover{
+    color: bisque;
+}
+#portafolio{
+    
+    padding: 48px 0px;
+    margin: auto;
+}
+#portafolio .titulo-seccion{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffae00;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+}
+#portafolio .fila{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+#portafolio .fila .proyecto{
+  max-width: 450px;
+  border: 1px solid #f4e5e5;
+  margin:  0 10px;
+  position:relative;
+  overflow: hidden;
+
+}
+#portafolio .fila .proyecto{
+    width: 50%;
+    height: 50%;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: 5s;
+}
+#portfolio .fila .proyecto:hover img{
+    filter: grayscale(0)
+}
+#portfolio .fila .proyecto .info{
+    position: absolute;
+    left: 0;
+    background-color: rgba(9, 9, 9, 0);
+    color: #ff5080;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: .5s;
+}
+
+/*secion contacto*/
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Merriweather;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    background: #000115;
+    cursor: none;
+   }
+   .mause{
+       z-index: 199;
+       position: fixed;
+       background: #2696E8;
+       width: 20px;
+       height: 20px;
+       border-radius: 50%;
+       pointer-events: none;
+       box-shadow: 0 0 20px #2696E8,
+                   0 0  60px #2696E8,
+                   0 0 100px #2696E8;
+       animation: colors 5s infinite;  
+       transform: translate(-50%, -50%); 
+               
+   }
+   @keyframes colors{
+       0%{
+           filter: hue-rotate(0deg);
+       }
+       100%{
+           filter: hue-rotate(360deg);
+   
+        }
+   }
+   .mause:before{
+      content: '';
+      position: absolute;
+      background: #2696E8;
+      width: 50px;
+      height: 50px;
+      opacity: 0.2;
+      transform: translate(-30%, -30%);
+      border-radius: 50%;
+   }
+#contacto{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/6.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#contacto .contenido header{
+    background-color: rgba(0, 0, 0, 0.267);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+#contacto .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#contacto .contenido header .contenido-header h1{
+    text-align: center;
+    color: bisque;
+}
+#contacto .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#contacto .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: bisque;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5%;
+}
+#contacto .contenido header .contenido-header nav ul a:hover{
+    color: rgb(250, 138, 1);
+}
+#contacto .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5%;
+}
+#contacto .contenido header .contenido-header .redes a:hover{
+    color: bisque;
+}
+
+#contacto{
+    height: 100vh;
+}
+
+#contacto .titulo-seccion{
+    text-align: center;
+    position: absolute;
+    top: 59px;
+    left: 585px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    text-decoration-thickness: 5px;
+}
+
+#contacto .contenedor-form{
+    max-width: 1108px;
+    margin: auto;
+}
+
+#contacto .contenedor-form .fila{
+    margin-bottom: 434px;
+}
+
+#contacto .contenedor-form .mitad{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto .contenedor-form input,
+#contacto .contenedor-form textarea{
+    position: absolute;
+    top: -4px;
+    left: 2px;
+   padding: 20px;
+   border-radius: 20px;
+   border: 1px solid #919191;
+}
+
+#contacto .contenedor-form .mitad input{
+    width: 48%;
+    position: absolute;
+    top: 220px;
+    left: 38px;
+}
+
+#contacto .contenedor-form .imail input{
+    width: 48%;
+    position: absolute;
+    top: 220px;
+    left: 692px;
+}
+
+#contacto .contenedor-form .input-full{
+    width: 97%;
+    position: absolute;
+    top: 128px;
+    left: 32px;
+}
+
+
+#contacto .fila3{
+    position: absolute;
+    top: 337px;
+    left: 203px;
+}
+.boton {
+    background-color: #ffdd6b; /* Color de fondo */
+    position: absolute;
+    left: 725px;
+    top: 474px;
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado dentro del botón */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como un bloque */
+    font-size: 16px; /* Tamaño del texto */
+    margin: 4px 2px; /* Margen exterior */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    border-radius: 8px; /* Borde redondeado */
+  }
+  
+  .boton:hover {
+    background-color: #ffc400;
+}
+  
+@media screen and (max-width: 800px) {
+    #contacto {
+        padding: 50px 15px;
+    }
+    #contacto .contenedor-form .mitad{
+        margin-bottom: 15px;
+        display: block;
+    }
+    #contacto .contenedor-form .metad input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30PX 0;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5PX;
+    font-size: 26PX;
+}
+/* SECCION RESPONSIVE*/
+@media screen and (max-width: 334px) {
+    .redes{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    nav.responsive{
+        display: block;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+    nav.responsive ul {
+        display: block !important;
+        text-align: center;
+    }
+    nav.responsive ul li{
+        margin: 5px 0;
+    }
+    #icono-nav{
+        display: block;
+    }
+    #inicio .contenido .presentacion h2 {
+        font-size: 21px;
+        position: relative;
+        top: -34px;
+    }
+    #inicio .contenido .presentacion .bienvenidos{
+        font-size: 8px;
+        position: absolute;
+        top: 85px;
+    }
+    #inicio .contenido .presentacion h2 span{
+        font-size: 51px;
+        position: relative;
+        top: 0px;
+    }
+    #sobremi{
+        padding: 50px 0;
+        display: block;
+    }
+    #sobremi .contenedor-foto {
+        max-width: 200px;
+        margin: auto;
+    }
+    #sobremi .contenedor-foto img{
+        padding: 8px;
+    }
+    #sobremi .sobremi .titulo-seccion{
+        text-align: center;
+    }
+    #sobremi .sobremi h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    #servicios{
+        padding: 50px 15px;
+    }
+    #servicios .fila {
+        display: block;
+    }
+    #servicios .fila .servicio {
+        margin: 10px auto;
+    }
+    .contenedor-skills {
+        padding: 50px 20px;
+    }
+    #portafolio{
+        padding: 50px 0;
+    }
+    #portafilio .fila {
+        display: flex;
+    }
+    #protafolio .fila .proyecto {
+        margin: 10px auto;
+    }
+    #contacto {
+        padding: 50px 15px;
+    }
+    #contacto .contenedor-form .mitad{
+        margin-bottom: 15px;
+        display: block;
+    }
+    #contacto .contenedor-form .metad input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

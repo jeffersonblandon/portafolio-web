@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/estilo.css">
+    <title>SOBRE MI</title>
+</head>
+
+<body>
+    <!--Secion dobre mi-->
+    <section id="SOBRE-MI">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>portafolio J.S.B.G</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="/index.html">INICIO</a></li>
+                            <li><a href="/SOBRE-MI.html">SOBRE MI</a></li>
+                            <li><a href="SERVICIOS.html">SERVICIOS</a></li>
+                            <!-- <li><a href="portafolio.html">PORTAFOLIO</a></li>-->
+                            <li><a href="contacto.html">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!--incono del menu reposive-->
+                    <div id="icono-nav">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!--incono de las redes sociales-->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </header>
+
+            <section id="sobremi">
+                <div class="CUA">
+                    <div class="sobremi">
+                        <p class="titulo-seccion">SOBRE MI</p>
+                        <h2> <b>Hola, soy</b> <samp><b>Jefferson Blandón</b></samp></h2>
+                        <h3> <b>Desarollador web</b></h3>
+                        <p>Técnico en Desarrollo de Software en formación, con experiencia
+                            de 1 año y medio en el área de programación y
+                            telecomunicaciones. <br> Desempeñando funciones como
+                            programación de equipos, <br> instalación de fibra óptica, inspección
+                            de seguridad en distintas áreas de trabajo, <br> soporte técnico de
+                            sistemas de cómputo, diseño y desarrollo de página de web. <br> Con
+                            competencias como dinamismo, manejo del tiempo y adaptación
+                            al cambio. Interés ocupacional en sistemas y programación</p>
+                        <p> instalación de fibra óptica, inspección
+                            de seguridad en distintas áreas de trabajo, <br> soporte técnico de
+                            sistemas de cómputo, <br> diseño y desarrollo de página de web. Con
+                            competencias como dinamismo, <br> manejo del tiempo y adaptación
+                            al cambio. Interés ocupacional en sistemas y programación</p>
+                        
+                    </div>
+                </div>
+                <a class="holadevida" href="#"> <b>CV </b></a>
+                <div class="contenedor-skills" id="skills">
+                    <h3> <FONT color="#fff"><b> HABILIDADES</b></FONT></h3>
+                    <div class="skill">
+                        <div class="info">
+                            <p><spsn class="lista"></spsn><FONT color="#fff"><b> HTML & CSS </b></FONT></p>
+                            <span class="porcentaje"><FONT color="#fff">69%</FONT></span>
+                        </div>
+                        <div class="barra">
+                            <div id="html" class="barra-progreso1"></div>
+                        </div>
+                    </div>
+                                        <div class="skill">
+                        <div class="info">
+                            <p><spsn class="lista"></spsn><FONT color="#fff"><b> JAVASCRIPT</b></FONT></p>
+                            <span class="porcentaje"><FONT color="#fff">50%</FONT></span>
+                        </div>
+                        <div class="barra">
+                            <div id="Javascript" class="barra-progreso2"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="circulo">
+            <img src="/img/foto1 (1).jpeg" class="foto">
+        </div>
+        <div class="mause"></div>
+        <section class="main">
+            
+
+        </section>
+        
+        <script type="text/javascript">
+            const mause = document.querySelector(".mause");
+            var timeout;
+
+            //movimiento del mouse
+            document.addEventListener("mousemove", (e) =>{
+                let x = e.pageX;
+                let y = e.pageY;
+
+                mause.style.top = y + "px";
+                mause.style.left = x + "px";
+                mause,style.display = "block";
+
+                function mouseStoppd(){
+                    cursor.style.display = "none";
+                }
+                clearTimeout(timeout);
+                timeout = setTimeout(mouseStoppd,1000);
+            });
+
+            document.addEventListener("mouseout", () =>{
+                mause,style.display = "none";
+            });
+
+        </script>
+
+
+    </section>
+    <footer>
+        <p>Todos los derechos reservados -2023</p>
+        <div class="redes">
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
