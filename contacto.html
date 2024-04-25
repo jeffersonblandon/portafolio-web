@@ -67,27 +67,27 @@
             <script type="text/javascript">
                 const mause = document.querySelector(".mause");
                 var timeout;
-    
+            
                 //movimiento del mouse
-                document.addEventListener("mousemove", (e) =>{
+                document.addEventListener("mousemove", (e) => {
                     let x = e.pageX;
                     let y = e.pageY;
-    
+            
                     mause.style.top = y + "px";
                     mause.style.left = x + "px";
-                    mause,style.display = "block";
-    
-                    function mouseStoppd(){
-                        cursor.style.display = "none";
-                    }
+                    mause.style.display = "block";
+            
                     clearTimeout(timeout);
-                    timeout = setTimeout(mouseStoppd,1000);
+                    timeout = setTimeout(mouseStopped, 1000);
                 });
-    
-                document.addEventListener("mouseout", () =>{
-                    mause,style.display = "none";
+            
+                function mouseStopped() {
+                    mause.style.display = "none";
+                }
+            
+                document.addEventListener("mouseout", () => {
+                    mause.style.display = "none";
                 });
-    
             </script>
     
 
