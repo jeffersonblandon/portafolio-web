@@ -149,7 +149,7 @@ body{
     display: none;
 }
 /*sobre mi*/
-@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');
+/*@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');*/
 *{
     margin: 0%;
     padding: 0%;
@@ -395,7 +395,7 @@ body{
 }
 /* SECCION SERVICIOS*/
 
-@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');
+/*@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');*/
 *{
     margin: 0%;
     padding: 0%;
@@ -557,9 +557,9 @@ body{
         padding: 50px 20px;
     }
 }
-/*secion portafolio*/
+/* secion portafolio
 
-@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');
+/*@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');*/
 *{
     margin: 0%;
     padding: 0%;
@@ -707,9 +707,9 @@ body{
     bottom: -40px;
     transition: .5s;
 }
-
+*/
 /*secion contacto*/
-@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');
+/*@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital@1 & display=swap');*/
 *{
     margin: 0%;
     padding: 0%;
